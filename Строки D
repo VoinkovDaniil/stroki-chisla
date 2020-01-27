@@ -1,0 +1,11 @@
+# stroki-chisla
+vich= input("Введите пример: ")
+b=0
+for i in range (len(vich)):
+    if vich[i]==("/"):
+        vich=vich.replace("/", "%")
+        
+if b>0:
+    print("Error")
+else:
+    print(eval(vich))
